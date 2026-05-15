@@ -1,4 +1,9 @@
-# astin-brain
+# obsidian-mcp-server
+
+[![CI](https://github.com/AstinSeverino/obsidian-mcp-server/actions/workflows/test.yml/badge.svg)](https://github.com/AstinSeverino/obsidian-mcp-server/actions/workflows/test.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node](https://img.shields.io/badge/node-%E2%89%A520-brightgreen.svg)](https://nodejs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue.svg)](https://www.typescriptlang.org/)
 
 A custom MCP server that exposes a personal Obsidian vault to LLMs via the
 [Model Context Protocol](https://modelcontextprotocol.io). It provides hybrid
