@@ -22,7 +22,7 @@ export function registerSummarizeTreePrompt(server: McpServer): void {
       argsSchema: {
         rootPath: z
           .string()
-          .describe("Vault-relative path of the root note (e.g. 'Projects/saas/index.md')"),
+          .describe("Vault-relative path of the root note (e.g. 'Research/topic/index.md')"),
         depth: z
           .string()
           .optional()
