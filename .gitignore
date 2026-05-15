@@ -1,0 +1,19 @@
+node_modules/
+build/
+data/
+coverage/
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Local config
+.env
+.env.local
+
+# Test fixtures created by smoke test
+/tmp/brain-*

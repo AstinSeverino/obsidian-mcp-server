@@ -1,0 +1,35 @@
+{
+  "name": "astin-brain-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "astin-brain": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node build/index.js",
+    "reindex": "node build/index.js --reindex --reindex-only",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.8.1",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "better-sqlite3": "^11.0.0",
+    "chokidar": "^4.0.0",
+    "graphology": "^0.25.0",
+    "graphology-types": "^0.24.8",
+    "gray-matter": "^4.0.3",
+    "sqlite-vec": "^0.1.6",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.0",
+    "@types/node": "^20.0.0",
+    "@vitest/coverage-v8": "^4.1.6",
+    "typescript": "^5.5.0",
+    "vitest": "^4.1.6"
+  }
+}
