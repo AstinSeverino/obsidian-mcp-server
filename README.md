@@ -264,7 +264,7 @@ All five guards live in [`src/core/security.ts`](./src/core/security.ts):
 ## Testing
 
 ```bash
-npm test            # vitest run — 23 tests in ~600ms
+npm test            # vitest run — 26 tests in ~600ms
 npm run test:watch  # vitest watch mode
 npm run test:coverage
 ```
