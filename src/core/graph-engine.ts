@@ -26,7 +26,7 @@ export class GraphEngine {
       const sourceKey = String(edge.source_id);
       const targetKey = String(edge.target_id);
 
-      if (this.graph.hasNode(sourceKey) && this.graph.hasNode(targetKey)) {
+      if (sourceKey !== targetKey && this.graph.hasNode(sourceKey) && this.graph.hasNode(targetKey)) {
         if (!this.graph.hasEdge(sourceKey, targetKey)) {
           this.graph.addEdge(sourceKey, targetKey);
         }
