@@ -14,6 +14,25 @@ coverage/
 # Local config
 .env
 .env.local
+.env.*
+!.env.example
+
+# Secrets & keys (defense-in-depth)
+*.pem
+*.key
+*.p12
+*.keystore
+
+# Databases & vector stores (never commit the vault index)
+*.db
+*.sqlite
+*.sqlite3
+
+# Model / embedding artifacts
+*.onnx
+*.safetensors
+*.bin
+*.gguf
 
 # Test fixtures created by smoke test
 /tmp/brain-*
